@@ -1,16 +1,8 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Finding Lane Lines on the Road**
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
 
 
 [//]: # (Image References)
@@ -51,14 +43,8 @@ Following steps are involved in my Laneline Detection Pipeline:
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
+This pipeline is having some difficulty while detecting curved lanelines. It will not perform as expected if road has many sharp turns.
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+Pipeline need to be improved for curve lanes detection.
